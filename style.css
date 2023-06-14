@@ -1,0 +1,170 @@
+body {
+    font-family: sans-serif;
+    width: 80%;
+    
+}
+h2{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+  
+}
+
+
+header{
+    position: relative;
+    height: 100px;
+    top: 70px;
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+ 
+}
+
+
+nav{
+    position: absolute;
+    width: 50%;
+    left: 358px;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.nav-link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #1E1E1E;
+}
+
+
+.nav-link:first-child{
+    font-weight: 700;  
+   color: blueviolet;
+}
+
+
+.nav-link:hover:first-child{
+    color: #1E1E1E;
+}
+
+
+.nav-link:hover{
+    font-weight: 700;
+    color: pink;
+    transition: 0.2s ease-in;
+}
+
+
+.logo{
+    position: absolute;
+    width: 15%;
+    left: 188px;
+    top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.call-butt{
+    background: #FFC700;
+    border: 2px solid #FFC700;
+    padding: 10px;
+    border-radius: 20%;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    
+}
+.call-butt:hover{
+    background:green;
+    color: white;
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+
+
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 940px;
+    left: 0px;
+    background-color: whitesmoke;
+}
+
+.nap {
+    text-align: center;
+}
+
+.napr {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+.np {
+    height: 150px;
+    width: 250px;
+    border-radius: 20%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.kn {
+  border: 5px solid grey;
+  background-color: grey;
+  color: black;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.teath {
+  height: 250px;
+  
+  
+}
+
+.pronas{
+    text-align: left;
+}
+
+.logotip{
+   float: right;
+}
+
+div{
+    float: left;
+}
+
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+}
+.logotip {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 5%;
+}
