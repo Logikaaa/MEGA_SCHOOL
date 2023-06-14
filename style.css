@@ -117,6 +117,7 @@ footer{
 
 .napr {
     display: flex;
+    display: inline-block;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 10px;
